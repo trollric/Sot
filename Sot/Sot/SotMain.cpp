@@ -1,7 +1,10 @@
-#include <iostream>
+#include <stdafx.h>
+#include <game.h>
 
-
-int main()
+int _tmain(int argc, _TCHAR* argv[])
 {
-	std::cout << "Hello World!";
+	Game::Start();
+
+	return 0;
+
 }
